@@ -11,7 +11,7 @@ module.exports = {
         'guard-for-in': 'warn',
         // 'eqeqeq': ['warn', 'always', { null: 'ignore' }],
         '@typescript-eslint/await-thenable': 'warn',
-        '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: true }],
+        '@typescript-eslint/no-floating-promises': ['error', { ignoreVoid: false }],
     },
     parserOptions: {
         ecmaVersion: 2020,
